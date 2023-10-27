@@ -1,0 +1,242 @@
+CRITICAL - 2023-10-27 00:10:32 --> Undefined property: App\Controllers\Home::$load
+in APPPATH\Controllers\Home.php on line 13.
+ 1 APPPATH\Controllers\Home.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Home::$load', 'D:\\gcham\\Documents\\XamppInstall\\htdocs\\codeigniter4_basics\\app\\Controllers\\Home.php', 13)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-27 00:10:33 --> Undefined property: App\Controllers\Home::$load
+in APPPATH\Controllers\Home.php on line 13.
+ 1 APPPATH\Controllers\Home.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Home::$load', 'D:\\gcham\\Documents\\XamppInstall\\htdocs\\codeigniter4_basics\\app\\Controllers\\Home.php', 13)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-27 00:10:41 --> Undefined property: App\Controllers\Home::$load
+in APPPATH\Controllers\Home.php on line 13.
+ 1 APPPATH\Controllers\Home.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Home::$load', 'D:\\gcham\\Documents\\XamppInstall\\htdocs\\codeigniter4_basics\\app\\Controllers\\Home.php', 13)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-27 00:10:42 --> Undefined property: App\Controllers\Home::$load
+in APPPATH\Controllers\Home.php on line 13.
+ 1 APPPATH\Controllers\Home.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Home::$load', 'D:\\gcham\\Documents\\XamppInstall\\htdocs\\codeigniter4_basics\\app\\Controllers\\Home.php', 13)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-27 00:10:51 --> Undefined property: App\Controllers\Home::$load
+in APPPATH\Controllers\Home.php on line 13.
+ 1 APPPATH\Controllers\Home.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Home::$load', 'D:\\gcham\\Documents\\XamppInstall\\htdocs\\codeigniter4_basics\\app\\Controllers\\Home.php', 13)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-27 00:11:55 --> Undefined property: App\Controllers\Home::$load
+in APPPATH\Controllers\Home.php on line 13.
+ 1 APPPATH\Controllers\Home.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Home::$load', 'D:\\gcham\\Documents\\XamppInstall\\htdocs\\codeigniter4_basics\\app\\Controllers\\Home.php', 13)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-27 00:11:55 --> Undefined property: App\Controllers\Home::$load
+in APPPATH\Controllers\Home.php on line 13.
+ 1 APPPATH\Controllers\Home.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Home::$load', 'D:\\gcham\\Documents\\XamppInstall\\htdocs\\codeigniter4_basics\\app\\Controllers\\Home.php', 13)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-27 00:13:24 --> Undefined property: App\Controllers\Home::$load
+in APPPATH\Controllers\Home.php on line 14.
+ 1 APPPATH\Controllers\Home.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Home::$load', 'D:\\gcham\\Documents\\XamppInstall\\htdocs\\codeigniter4_basics\\app\\Controllers\\Home.php', 14)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-27 00:13:25 --> Undefined property: App\Controllers\Home::$load
+in APPPATH\Controllers\Home.php on line 14.
+ 1 APPPATH\Controllers\Home.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Home::$load', 'D:\\gcham\\Documents\\XamppInstall\\htdocs\\codeigniter4_basics\\app\\Controllers\\Home.php', 14)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-27 00:16:13 --> Undefined property: App\Controllers\Home::$load
+in APPPATH\Controllers\Home.php on line 14.
+ 1 APPPATH\Controllers\Home.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Home::$load', 'D:\\gcham\\Documents\\XamppInstall\\htdocs\\codeigniter4_basics\\app\\Controllers\\Home.php', 14)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-27 00:16:14 --> Undefined property: App\Controllers\Home::$load
+in APPPATH\Controllers\Home.php on line 14.
+ 1 APPPATH\Controllers\Home.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Home::$load', 'D:\\gcham\\Documents\\XamppInstall\\htdocs\\codeigniter4_basics\\app\\Controllers\\Home.php', 14)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-27 00:17:58 --> Unmatched '}'
+in APPPATH\Controllers\Home.php on line 38.
+ 1 SYSTEMPATH\Router\Router.php(512): CodeIgniter\Router\AutoRouter->getRoute('/', 'get')
+ 2 SYSTEMPATH\Router\Router.php(208): CodeIgniter\Router\Router->autoRoute('/')
+ 3 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('/')
+ 4 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-27 00:18:04 --> Unmatched '}'
+in APPPATH\Controllers\Home.php on line 38.
+ 1 SYSTEMPATH\Router\Router.php(512): CodeIgniter\Router\AutoRouter->getRoute('/', 'get')
+ 2 SYSTEMPATH\Router\Router.php(208): CodeIgniter\Router\Router->autoRoute('/')
+ 3 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('/')
+ 4 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-27 00:18:05 --> Unmatched '}'
+in APPPATH\Controllers\Home.php on line 38.
+ 1 SYSTEMPATH\Router\Router.php(512): CodeIgniter\Router\AutoRouter->getRoute('/', 'get')
+ 2 SYSTEMPATH\Router\Router.php(208): CodeIgniter\Router\Router->autoRoute('/')
+ 3 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('/')
+ 4 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-27 00:20:21 --> Invalid file: "fotter.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('fotter.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('fotter', [], true)
+ 3 APPPATH\Controllers\Home.php(16): view('fotter')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-27 03:39:04 --> Class "Locale" not found
+in SYSTEMPATH\CodeIgniter.php on line 214.
+ 1 FCPATH\index.php(67): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-10-27 03:39:05 --> Uncaught Error: Class "Locale" not found in C:\XammpNew\tabletopics\system\Helpers\number_helper.php:136
+Stack trace:
+#0 C:\XammpNew\tabletopics\system\Helpers\number_helper.php(55): format_number(6.0, 2, NULL, Array)
+#1 C:\XammpNew\tabletopics\system\Debug\BaseExceptionHandler.php(145): number_to_size(6.0, 2)
+#2 C:\XammpNew\tabletopics\app\Views\errors\html\error_exception.php(360): CodeIgniter\Debug\BaseExceptionHandler::describeMemory(6291456)
+#3 C:\XammpNew\tabletopics\system\Debug\BaseExceptionHandler.php(241): include('C:\\XammpNew\\tab...')
+#4 C:\XammpNew\tabletopics\system\Debug\BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#5 C:\XammpNew\tabletopics\system\Debug\ExceptionHandler.php(109): CodeIgniter\Debug\BaseExceptionHandler->render(Object(Error), 500, 'C:\\XammpNew\\tab...')
+#6 C:\XammpNew\tabletopics\system\Debug\Exceptions.php(146): CodeIgniter\Debug\ExceptionHandler->handle(Object(Error), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#8 {main}
+  thrown
+【Previous Exception】
+Error
+Class "Locale" not found
+#0 C:\XammpNew\tabletopics\public\index.php(67): CodeIgniter\CodeIgniter->initialize()
+#1 {main}
+in SYSTEMPATH\Helpers\number_helper.php on line 136.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-10-27 03:39:45 --> Class "Locale" not found
+in SYSTEMPATH\CodeIgniter.php on line 214.
+ 1 FCPATH\index.php(67): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-10-27 03:39:45 --> Uncaught Error: Class "Locale" not found in C:\XammpNew\tabletopics\system\Helpers\number_helper.php:136
+Stack trace:
+#0 C:\XammpNew\tabletopics\system\Helpers\number_helper.php(55): format_number(6.0, 2, NULL, Array)
+#1 C:\XammpNew\tabletopics\system\Debug\BaseExceptionHandler.php(145): number_to_size(6.0, 2)
+#2 C:\XammpNew\tabletopics\app\Views\errors\html\error_exception.php(360): CodeIgniter\Debug\BaseExceptionHandler::describeMemory(6291456)
+#3 C:\XammpNew\tabletopics\system\Debug\BaseExceptionHandler.php(241): include('C:\\XammpNew\\tab...')
+#4 C:\XammpNew\tabletopics\system\Debug\BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#5 C:\XammpNew\tabletopics\system\Debug\ExceptionHandler.php(109): CodeIgniter\Debug\BaseExceptionHandler->render(Object(Error), 500, 'C:\\XammpNew\\tab...')
+#6 C:\XammpNew\tabletopics\system\Debug\Exceptions.php(146): CodeIgniter\Debug\ExceptionHandler->handle(Object(Error), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#8 {main}
+  thrown
+【Previous Exception】
+Error
+Class "Locale" not found
+#0 C:\XammpNew\tabletopics\public\index.php(67): CodeIgniter\CodeIgniter->initialize()
+#1 {main}
+in SYSTEMPATH\Helpers\number_helper.php on line 136.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-10-27 03:39:46 --> Class "Locale" not found
+in SYSTEMPATH\CodeIgniter.php on line 214.
+ 1 FCPATH\index.php(67): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-10-27 03:39:46 --> Uncaught Error: Class "Locale" not found in C:\XammpNew\tabletopics\system\Helpers\number_helper.php:136
+Stack trace:
+#0 C:\XammpNew\tabletopics\system\Helpers\number_helper.php(55): format_number(6.0, 2, NULL, Array)
+#1 C:\XammpNew\tabletopics\system\Debug\BaseExceptionHandler.php(145): number_to_size(6.0, 2)
+#2 C:\XammpNew\tabletopics\app\Views\errors\html\error_exception.php(360): CodeIgniter\Debug\BaseExceptionHandler::describeMemory(6291456)
+#3 C:\XammpNew\tabletopics\system\Debug\BaseExceptionHandler.php(241): include('C:\\XammpNew\\tab...')
+#4 C:\XammpNew\tabletopics\system\Debug\BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#5 C:\XammpNew\tabletopics\system\Debug\ExceptionHandler.php(109): CodeIgniter\Debug\BaseExceptionHandler->render(Object(Error), 500, 'C:\\XammpNew\\tab...')
+#6 C:\XammpNew\tabletopics\system\Debug\Exceptions.php(146): CodeIgniter\Debug\ExceptionHandler->handle(Object(Error), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#8 {main}
+  thrown
+【Previous Exception】
+Error
+Class "Locale" not found
+#0 C:\XammpNew\tabletopics\public\index.php(67): CodeIgniter\CodeIgniter->initialize()
+#1 {main}
+in SYSTEMPATH\Helpers\number_helper.php on line 136.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-10-27 03:39:49 --> Class "Locale" not found
+in SYSTEMPATH\CodeIgniter.php on line 214.
+ 1 FCPATH\index.php(67): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-10-27 03:39:49 --> Uncaught Error: Class "Locale" not found in C:\XammpNew\tabletopics\system\Helpers\number_helper.php:136
+Stack trace:
+#0 C:\XammpNew\tabletopics\system\Helpers\number_helper.php(55): format_number(6.0, 2, NULL, Array)
+#1 C:\XammpNew\tabletopics\system\Debug\BaseExceptionHandler.php(145): number_to_size(6.0, 2)
+#2 C:\XammpNew\tabletopics\app\Views\errors\html\error_exception.php(360): CodeIgniter\Debug\BaseExceptionHandler::describeMemory(6291456)
+#3 C:\XammpNew\tabletopics\system\Debug\BaseExceptionHandler.php(241): include('C:\\XammpNew\\tab...')
+#4 C:\XammpNew\tabletopics\system\Debug\BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#5 C:\XammpNew\tabletopics\system\Debug\ExceptionHandler.php(109): CodeIgniter\Debug\BaseExceptionHandler->render(Object(Error), 500, 'C:\\XammpNew\\tab...')
+#6 C:\XammpNew\tabletopics\system\Debug\Exceptions.php(146): CodeIgniter\Debug\ExceptionHandler->handle(Object(Error), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#8 {main}
+  thrown
+【Previous Exception】
+Error
+Class "Locale" not found
+#0 C:\XammpNew\tabletopics\public\index.php(67): CodeIgniter\CodeIgniter->initialize()
+#1 {main}
+in SYSTEMPATH\Helpers\number_helper.php on line 136.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-10-27 03:39:49 --> Class "Locale" not found
+in SYSTEMPATH\CodeIgniter.php on line 214.
+ 1 FCPATH\index.php(67): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-10-27 03:39:49 --> Uncaught Error: Class "Locale" not found in C:\XammpNew\tabletopics\system\Helpers\number_helper.php:136
+Stack trace:
+#0 C:\XammpNew\tabletopics\system\Helpers\number_helper.php(55): format_number(6.0, 2, NULL, Array)
+#1 C:\XammpNew\tabletopics\system\Debug\BaseExceptionHandler.php(145): number_to_size(6.0, 2)
+#2 C:\XammpNew\tabletopics\app\Views\errors\html\error_exception.php(360): CodeIgniter\Debug\BaseExceptionHandler::describeMemory(6291456)
+#3 C:\XammpNew\tabletopics\system\Debug\BaseExceptionHandler.php(241): include('C:\\XammpNew\\tab...')
+#4 C:\XammpNew\tabletopics\system\Debug\BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#5 C:\XammpNew\tabletopics\system\Debug\ExceptionHandler.php(109): CodeIgniter\Debug\BaseExceptionHandler->render(Object(Error), 500, 'C:\\XammpNew\\tab...')
+#6 C:\XammpNew\tabletopics\system\Debug\Exceptions.php(146): CodeIgniter\Debug\ExceptionHandler->handle(Object(Error), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#8 {main}
+  thrown
+【Previous Exception】
+Error
+Class "Locale" not found
+#0 C:\XammpNew\tabletopics\public\index.php(67): CodeIgniter\CodeIgniter->initialize()
+#1 {main}
+in SYSTEMPATH\Helpers\number_helper.php on line 136.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-10-27 03:41:36 --> Class "Locale" not found
+in SYSTEMPATH\CodeIgniter.php on line 214.
+ 1 FCPATH\index.php(67): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-10-27 03:41:36 --> Uncaught Error: Class "Locale" not found in C:\XammpNew\tabletopics\system\Helpers\number_helper.php:136
+Stack trace:
+#0 C:\XammpNew\tabletopics\system\Helpers\number_helper.php(55): format_number(6.0, 2, NULL, Array)
+#1 C:\XammpNew\tabletopics\system\Debug\BaseExceptionHandler.php(145): number_to_size(6.0, 2)
+#2 C:\XammpNew\tabletopics\app\Views\errors\html\error_exception.php(360): CodeIgniter\Debug\BaseExceptionHandler::describeMemory(6291456)
+#3 C:\XammpNew\tabletopics\system\Debug\BaseExceptionHandler.php(241): include('C:\\XammpNew\\tab...')
+#4 C:\XammpNew\tabletopics\system\Debug\BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#5 C:\XammpNew\tabletopics\system\Debug\ExceptionHandler.php(109): CodeIgniter\Debug\BaseExceptionHandler->render(Object(Error), 500, 'C:\\XammpNew\\tab...')
+#6 C:\XammpNew\tabletopics\system\Debug\Exceptions.php(146): CodeIgniter\Debug\ExceptionHandler->handle(Object(Error), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#8 {main}
+  thrown
+【Previous Exception】
+Error
+Class "Locale" not found
+#0 C:\XammpNew\tabletopics\public\index.php(67): CodeIgniter\CodeIgniter->initialize()
+#1 {main}
+in SYSTEMPATH\Helpers\number_helper.php on line 136.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()

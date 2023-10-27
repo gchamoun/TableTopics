@@ -1,0 +1,631 @@
+CRITICAL - 2023-10-26 01:24:36 --> Class "CI_Controller" not found
+in APPPATH\Controllers\DatabaseTest.php on line 2.
+ 1 SYSTEMPATH\Router\AutoRouter.php(161): include_once()
+ 2 SYSTEMPATH\Router\Router.php(512): CodeIgniter\Router\AutoRouter->getRoute('databasetest', 'get')
+ 3 SYSTEMPATH\Router\Router.php(208): CodeIgniter\Router\Router->autoRoute('databasetest')
+ 4 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('databasetest')
+ 5 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-26 01:25:21 --> Undefined property: App\Controllers\DatabaseTest::$load
+in APPPATH\Controllers\DatabaseTest.php on line 7.
+ 1 APPPATH\Controllers\DatabaseTest.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\DatabaseTest::$load', 'D:\\gcham\\Documents\\XamppInstall\\htdocs\\codeigniter4_basics\\app\\Controllers\\DatabaseTest.php', 7)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\DatabaseTest->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DatabaseTest))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-26 01:26:15 --> tables_connect is not a valid database connection group.
+in SYSTEMPATH\Database\Config.php on line 69.
+ 1 APPPATH\Controllers\DatabaseTest.php(7): CodeIgniter\Database\Config::connect('tables_connect')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\DatabaseTest->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DatabaseTest))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-26 01:26:37 --> tablesconnect is not a valid database connection group.
+in SYSTEMPATH\Database\Config.php on line 69.
+ 1 APPPATH\Controllers\DatabaseTest.php(7): CodeIgniter\Database\Config::connect('tablesconnect')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\DatabaseTest->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DatabaseTest))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-26 01:26:42 --> tablesconnect is not a valid database connection group.
+in SYSTEMPATH\Database\Config.php on line 69.
+ 1 APPPATH\Controllers\DatabaseTest.php(7): CodeIgniter\Database\Config::connect('tablesconnect')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\DatabaseTest->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DatabaseTest))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-26 01:28:05 --> tablesconnect is not a valid database connection group.
+in SYSTEMPATH\Database\Config.php on line 69.
+ 1 APPPATH\Controllers\DatabaseTest.php(7): CodeIgniter\Database\Config::connect('tablesconnect')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\DatabaseTest->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DatabaseTest))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-26 01:28:06 --> tablesconnect is not a valid database connection group.
+in SYSTEMPATH\Database\Config.php on line 69.
+ 1 APPPATH\Controllers\DatabaseTest.php(7): CodeIgniter\Database\Config::connect('tablesconnect')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\DatabaseTest->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DatabaseTest))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-26 01:28:07 --> tablesconnect is not a valid database connection group.
+in SYSTEMPATH\Database\Config.php on line 69.
+ 1 APPPATH\Controllers\DatabaseTest.php(7): CodeIgniter\Database\Config::connect('tablesconnect')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\DatabaseTest->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DatabaseTest))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-26 01:29:49 --> tablesconnect is not a valid database connection group.
+in SYSTEMPATH\Database\Config.php on line 69.
+ 1 APPPATH\Controllers\DatabaseTest.php(7): CodeIgniter\Database\Config::connect('tablesconnect')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\DatabaseTest->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DatabaseTest))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-26 01:29:50 --> tablesconnect is not a valid database connection group.
+in SYSTEMPATH\Database\Config.php on line 69.
+ 1 APPPATH\Controllers\DatabaseTest.php(7): CodeIgniter\Database\Config::connect('tablesconnect')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\DatabaseTest->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DatabaseTest))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-26 01:30:00 --> tablesconnect is not a valid database connection group.
+in SYSTEMPATH\Database\Config.php on line 69.
+ 1 APPPATH\Controllers\DatabaseTest.php(7): CodeIgniter\Database\Config::connect('tablesconnect')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\DatabaseTest->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DatabaseTest))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-26 01:30:46 --> tablesconnect is not a valid database connection group.
+in SYSTEMPATH\Database\Config.php on line 69.
+ 1 APPPATH\Controllers\DatabaseTest.php(7): CodeIgniter\Database\Config::connect('tablesconnect')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\DatabaseTest->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DatabaseTest))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-26 01:33:20 --> Undefined property: App\Controllers\Home::$load
+in APPPATH\Controllers\Home.php on line 13.
+ 1 APPPATH\Controllers\Home.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Home::$load', 'D:\\gcham\\Documents\\XamppInstall\\htdocs\\codeigniter4_basics\\app\\Controllers\\Home.php', 13)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-26 01:33:20 --> Undefined property: App\Controllers\Home::$load
+in APPPATH\Controllers\Home.php on line 13.
+ 1 APPPATH\Controllers\Home.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Home::$load', 'D:\\gcham\\Documents\\XamppInstall\\htdocs\\codeigniter4_basics\\app\\Controllers\\Home.php', 13)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-26 01:34:56 --> syntax error, unexpected token "}", expecting "," or ";"
+in APPPATH\Controllers\DatabaseTest.php on line 12.
+ 1 SYSTEMPATH\Router\Router.php(512): CodeIgniter\Router\AutoRouter->getRoute('databasetest', 'get')
+ 2 SYSTEMPATH\Router\Router.php(208): CodeIgniter\Router\Router->autoRoute('databasetest')
+ 3 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('databasetest')
+ 4 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-26 01:34:57 --> syntax error, unexpected token "}", expecting "," or ";"
+in APPPATH\Controllers\DatabaseTest.php on line 12.
+ 1 SYSTEMPATH\Router\Router.php(512): CodeIgniter\Router\AutoRouter->getRoute('databasetest', 'get')
+ 2 SYSTEMPATH\Router\Router.php(208): CodeIgniter\Router\Router->autoRoute('databasetest')
+ 3 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('databasetest')
+ 4 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-26 01:37:54 --> syntax error, unexpected token "}"
+in APPPATH\Controllers\DatabaseTest.php on line 17.
+ 1 SYSTEMPATH\Router\Router.php(512): CodeIgniter\Router\AutoRouter->getRoute('databasetest', 'get')
+ 2 SYSTEMPATH\Router\Router.php(208): CodeIgniter\Router\Router->autoRoute('databasetest')
+ 3 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('databasetest')
+ 4 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-26 01:38:03 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', '', Object(SensitiveParameterValue), '', 3306, '', 0)
+#1 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\app\Controllers\DatabaseTest.php(13): CodeIgniter\Database\BaseConnection->query('se;ect * from s...')
+#4 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\CodeIgniter.php(919): App\Controllers\DatabaseTest->index()
+#5 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DatabaseTest))
+#6 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\app\Controllers\DatabaseTest.php(13): CodeIgniter\Database\BaseConnection->query('se;ect * from s...')
+#3 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\CodeIgniter.php(919): App\Controllers\DatabaseTest->index()
+#4 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DatabaseTest))
+#5 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-10-26 01:38:03 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Controllers\DatabaseTest.php(13): CodeIgniter\Database\BaseConnection->query('se;ect * from stores')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\DatabaseTest->index()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DatabaseTest))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-26 01:40:56 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', '', Object(SensitiveParameterValue), '', 3306, '', 0)
+#1 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\app\Controllers\DatabaseTest.php(13): CodeIgniter\Database\BaseConnection->query('se;ect * from s...')
+#4 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\CodeIgniter.php(919): App\Controllers\DatabaseTest->index()
+#5 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DatabaseTest))
+#6 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\app\Controllers\DatabaseTest.php(13): CodeIgniter\Database\BaseConnection->query('se;ect * from s...')
+#3 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\CodeIgniter.php(919): App\Controllers\DatabaseTest->index()
+#4 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DatabaseTest))
+#5 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-10-26 01:40:56 --> Unable to connect to the database.
+Main connection [mysqli]: Access denied for user ''@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Controllers\DatabaseTest.php(13): CodeIgniter\Database\BaseConnection->query('se;ect * from stores')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\DatabaseTest->index()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DatabaseTest))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-26 01:41:01 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', '', Object(SensitiveParameterValue), '', 3306, '', 0)
+#1 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\app\Controllers\DatabaseTest.php(13): CodeIgniter\Database\BaseConnection->query('se;ect * from s...')
+#4 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\CodeIgniter.php(919): App\Controllers\DatabaseTest->index()
+#5 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DatabaseTest))
+#6 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\app\Controllers\DatabaseTest.php(13): CodeIgniter\Database\BaseConnection->query('se;ect * from s...')
+#3 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\CodeIgniter.php(919): App\Controllers\DatabaseTest->index()
+#4 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DatabaseTest))
+#5 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-10-26 01:41:01 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Controllers\DatabaseTest.php(13): CodeIgniter\Database\BaseConnection->query('se;ect * from stores')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\DatabaseTest->index()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DatabaseTest))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-26 01:42:05 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', '', Object(SensitiveParameterValue), '', 3306, '', 0)
+#1 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\app\Controllers\DatabaseTest.php(13): CodeIgniter\Database\BaseConnection->query('se;ect * from s...')
+#4 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\CodeIgniter.php(919): App\Controllers\DatabaseTest->index()
+#5 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DatabaseTest))
+#6 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\app\Controllers\DatabaseTest.php(13): CodeIgniter\Database\BaseConnection->query('se;ect * from s...')
+#3 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\CodeIgniter.php(919): App\Controllers\DatabaseTest->index()
+#4 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DatabaseTest))
+#5 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-10-26 01:42:05 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Controllers\DatabaseTest.php(13): CodeIgniter\Database\BaseConnection->query('se;ect * from stores')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\DatabaseTest->index()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DatabaseTest))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-26 01:42:39 --> Class "CodeIgniter\Database\MySQLis\Connection" not found
+in SYSTEMPATH\Database\Database.php on line 137.
+ 1 SYSTEMPATH\Database\Database.php(55): CodeIgniter\Database\Database->initDriver('MySQLis', 'Connection', [...])
+ 2 SYSTEMPATH\Database\Config.php(81): CodeIgniter\Database\Database->load([...], 'default')
+ 3 APPPATH\Controllers\DatabaseTest.php(10): CodeIgniter\Database\Config::connect()
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\DatabaseTest->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DatabaseTest))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-26 01:42:44 --> Class "CodeIgniter\Database\MySQLiaa\Connection" not found
+in SYSTEMPATH\Database\Database.php on line 137.
+ 1 SYSTEMPATH\Database\Database.php(55): CodeIgniter\Database\Database->initDriver('MySQLiaa', 'Connection', [...])
+ 2 SYSTEMPATH\Database\Config.php(81): CodeIgniter\Database\Database->load([...], 'default')
+ 3 APPPATH\Controllers\DatabaseTest.php(10): CodeIgniter\Database\Config::connect()
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\DatabaseTest->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DatabaseTest))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-26 01:42:58 --> Class "CodeIgniter\Database\tablesconnect\Connection" not found
+in SYSTEMPATH\Database\Database.php on line 137.
+ 1 SYSTEMPATH\Database\Database.php(55): CodeIgniter\Database\Database->initDriver('tablesconnect', 'Connection', [...])
+ 2 SYSTEMPATH\Database\Config.php(81): CodeIgniter\Database\Database->load([...], 'default')
+ 3 APPPATH\Controllers\DatabaseTest.php(10): CodeIgniter\Database\Config::connect()
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\DatabaseTest->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DatabaseTest))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-26 01:43:04 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', '', Object(SensitiveParameterValue), '', 3306, '', 0)
+#1 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\app\Controllers\DatabaseTest.php(13): CodeIgniter\Database\BaseConnection->query('se;ect * from s...')
+#4 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\CodeIgniter.php(919): App\Controllers\DatabaseTest->index()
+#5 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DatabaseTest))
+#6 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\app\Controllers\DatabaseTest.php(13): CodeIgniter\Database\BaseConnection->query('se;ect * from s...')
+#3 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\CodeIgniter.php(919): App\Controllers\DatabaseTest->index()
+#4 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DatabaseTest))
+#5 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-10-26 01:43:04 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Controllers\DatabaseTest.php(13): CodeIgniter\Database\BaseConnection->query('se;ect * from stores')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\DatabaseTest->index()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DatabaseTest))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-26 01:44:21 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', '', Object(SensitiveParameterValue), '', 3306, '', 0)
+#1 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\app\Controllers\DatabaseTest.php(13): CodeIgniter\Database\BaseConnection->query('se;ect * from s...')
+#4 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\CodeIgniter.php(919): App\Controllers\DatabaseTest->index()
+#5 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DatabaseTest))
+#6 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\app\Controllers\DatabaseTest.php(13): CodeIgniter\Database\BaseConnection->query('se;ect * from s...')
+#3 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\CodeIgniter.php(919): App\Controllers\DatabaseTest->index()
+#4 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DatabaseTest))
+#5 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-10-26 01:44:21 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Controllers\DatabaseTest.php(13): CodeIgniter\Database\BaseConnection->query('se;ect * from stores')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\DatabaseTest->index()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DatabaseTest))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-26 01:44:23 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', '', Object(SensitiveParameterValue), '', 3306, '', 0)
+#1 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\app\Controllers\DatabaseTest.php(13): CodeIgniter\Database\BaseConnection->query('se;ect * from s...')
+#4 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\CodeIgniter.php(919): App\Controllers\DatabaseTest->index()
+#5 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DatabaseTest))
+#6 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\app\Controllers\DatabaseTest.php(13): CodeIgniter\Database\BaseConnection->query('se;ect * from s...')
+#3 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\CodeIgniter.php(919): App\Controllers\DatabaseTest->index()
+#4 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DatabaseTest))
+#5 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-10-26 01:44:23 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Controllers\DatabaseTest.php(13): CodeIgniter\Database\BaseConnection->query('se;ect * from stores')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\DatabaseTest->index()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DatabaseTest))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-26 01:44:25 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', '', Object(SensitiveParameterValue), '', 3306, '', 0)
+#1 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\app\Controllers\DatabaseTest.php(13): CodeIgniter\Database\BaseConnection->query('se;ect * from s...')
+#4 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\CodeIgniter.php(919): App\Controllers\DatabaseTest->index()
+#5 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DatabaseTest))
+#6 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\app\Controllers\DatabaseTest.php(13): CodeIgniter\Database\BaseConnection->query('se;ect * from s...')
+#3 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\CodeIgniter.php(919): App\Controllers\DatabaseTest->index()
+#4 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DatabaseTest))
+#5 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-10-26 01:44:25 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Controllers\DatabaseTest.php(13): CodeIgniter\Database\BaseConnection->query('se;ect * from stores')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\DatabaseTest->index()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DatabaseTest))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-26 01:44:26 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', '', Object(SensitiveParameterValue), '', 3306, '', 0)
+#1 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\app\Controllers\DatabaseTest.php(13): CodeIgniter\Database\BaseConnection->query('se;ect * from s...')
+#4 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\CodeIgniter.php(919): App\Controllers\DatabaseTest->index()
+#5 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DatabaseTest))
+#6 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\app\Controllers\DatabaseTest.php(13): CodeIgniter\Database\BaseConnection->query('se;ect * from s...')
+#3 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\CodeIgniter.php(919): App\Controllers\DatabaseTest->index()
+#4 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DatabaseTest))
+#5 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-10-26 01:44:26 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Controllers\DatabaseTest.php(13): CodeIgniter\Database\BaseConnection->query('se;ect * from stores')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\DatabaseTest->index()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DatabaseTest))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-26 01:44:55 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'se;ect * from stores' at line 1 in D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\Database\MySQLi\Connection.php(306): mysqli->query('se;ect * from s...', 0)
+#1 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('se;ect * from s...')
+#2 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('se;ect * from s...')
+#3 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\app\Controllers\DatabaseTest.php(13): CodeIgniter\Database\BaseConnection->query('se;ect * from s...')
+#4 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\CodeIgniter.php(919): App\Controllers\DatabaseTest->index()
+#5 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DatabaseTest))
+#6 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-10-26 01:44:55 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'se;ect * from stores' at line 1
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 APPPATH\Controllers\DatabaseTest.php(13): CodeIgniter\Database\BaseConnection->query('se;ect * from stores')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\DatabaseTest->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DatabaseTest))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-26 01:44:56 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'se;ect * from stores' at line 1 in D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\Database\MySQLi\Connection.php(306): mysqli->query('se;ect * from s...', 0)
+#1 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('se;ect * from s...')
+#2 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('se;ect * from s...')
+#3 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\app\Controllers\DatabaseTest.php(13): CodeIgniter\Database\BaseConnection->query('se;ect * from s...')
+#4 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\CodeIgniter.php(919): App\Controllers\DatabaseTest->index()
+#5 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DatabaseTest))
+#6 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-10-26 01:44:56 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'se;ect * from stores' at line 1
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 APPPATH\Controllers\DatabaseTest.php(13): CodeIgniter\Database\BaseConnection->query('se;ect * from stores')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\DatabaseTest->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DatabaseTest))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-26 01:44:58 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'se;ect * from stores' at line 1 in D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\Database\MySQLi\Connection.php(306): mysqli->query('se;ect * from s...', 0)
+#1 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('se;ect * from s...')
+#2 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('se;ect * from s...')
+#3 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\app\Controllers\DatabaseTest.php(13): CodeIgniter\Database\BaseConnection->query('se;ect * from s...')
+#4 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\CodeIgniter.php(919): App\Controllers\DatabaseTest->index()
+#5 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DatabaseTest))
+#6 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-10-26 01:44:58 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'se;ect * from stores' at line 1
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 APPPATH\Controllers\DatabaseTest.php(13): CodeIgniter\Database\BaseConnection->query('se;ect * from stores')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\DatabaseTest->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DatabaseTest))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-26 01:45:00 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'se;ect * from stores' at line 1 in D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\Database\MySQLi\Connection.php(306): mysqli->query('se;ect * from s...', 0)
+#1 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('se;ect * from s...')
+#2 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('se;ect * from s...')
+#3 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\app\Controllers\DatabaseTest.php(13): CodeIgniter\Database\BaseConnection->query('se;ect * from s...')
+#4 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\CodeIgniter.php(919): App\Controllers\DatabaseTest->index()
+#5 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DatabaseTest))
+#6 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-10-26 01:45:00 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'se;ect * from stores' at line 1
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 APPPATH\Controllers\DatabaseTest.php(13): CodeIgniter\Database\BaseConnection->query('se;ect * from stores')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\DatabaseTest->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DatabaseTest))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-26 01:45:18 --> mysqli_sql_exception: No database selected in D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\Database\MySQLi\Connection.php(306): mysqli->query('select * from s...', 0)
+#1 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('select * from s...')
+#2 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('select * from s...')
+#3 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\app\Controllers\DatabaseTest.php(13): CodeIgniter\Database\BaseConnection->query('select * from s...')
+#4 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\CodeIgniter.php(919): App\Controllers\DatabaseTest->index()
+#5 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DatabaseTest))
+#6 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-10-26 01:45:18 --> No database selected
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 APPPATH\Controllers\DatabaseTest.php(13): CodeIgniter\Database\BaseConnection->query('select * from stores')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\DatabaseTest->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DatabaseTest))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-26 01:47:37 --> tablesconnect is not a valid database connection group.
+in SYSTEMPATH\Database\Config.php on line 69.
+ 1 APPPATH\Controllers\DatabaseTest.php(10): CodeIgniter\Database\Config::connect('tablesconnect')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\DatabaseTest->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DatabaseTest))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-26 01:47:38 --> tablesconnect is not a valid database connection group.
+in SYSTEMPATH\Database\Config.php on line 69.
+ 1 APPPATH\Controllers\DatabaseTest.php(10): CodeIgniter\Database\Config::connect('tablesconnect')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\DatabaseTest->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DatabaseTest))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-26 01:48:42 --> tablesconnect is not a valid database connection group.
+in SYSTEMPATH\Database\Config.php on line 69.
+ 1 APPPATH\Controllers\DatabaseTest.php(11): CodeIgniter\Database\Config::connect('tablesconnect')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\DatabaseTest->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DatabaseTest))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-26 01:48:44 --> tablesconnect is not a valid database connection group.
+in SYSTEMPATH\Database\Config.php on line 69.
+ 1 APPPATH\Controllers\DatabaseTest.php(11): CodeIgniter\Database\Config::connect('tablesconnect')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\DatabaseTest->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DatabaseTest))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-26 01:49:25 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::listDatabases()
+in APPPATH\Controllers\DatabaseTest.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\DatabaseTest->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DatabaseTest))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-26 01:50:56 --> mysqli_sql_exception: No database selected in D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT name, ti...', 0)
+#1 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT name, ti...')
+#2 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT name, ti...')
+#3 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\app\Controllers\DatabaseTest.php(9): CodeIgniter\Database\BaseConnection->query('SELECT name, ti...')
+#4 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\CodeIgniter.php(919): App\Controllers\DatabaseTest->index()
+#5 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DatabaseTest))
+#6 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-10-26 01:50:56 --> No database selected
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 APPPATH\Controllers\DatabaseTest.php(9): CodeIgniter\Database\BaseConnection->query('SELECT name, title, email FROM my_table')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\DatabaseTest->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DatabaseTest))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-26 01:52:19 --> Class "CodeIgniter\Database\tablesconnect\Connection" not found
+in SYSTEMPATH\Database\Database.php on line 137.
+ 1 SYSTEMPATH\Database\Database.php(55): CodeIgniter\Database\Database->initDriver('tablesconnect', 'Connection', [...])
+ 2 SYSTEMPATH\Database\Config.php(81): CodeIgniter\Database\Database->load([...], 'default')
+ 3 APPPATH\Controllers\DatabaseTest.php(8): CodeIgniter\Database\Config::connect()
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\DatabaseTest->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DatabaseTest))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-26 01:52:26 --> mysqli_sql_exception: No database selected in D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT name, ti...', 0)
+#1 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT name, ti...')
+#2 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT name, ti...')
+#3 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\app\Controllers\DatabaseTest.php(9): CodeIgniter\Database\BaseConnection->query('SELECT name, ti...')
+#4 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\CodeIgniter.php(919): App\Controllers\DatabaseTest->index()
+#5 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DatabaseTest))
+#6 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-10-26 01:52:26 --> No database selected
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 APPPATH\Controllers\DatabaseTest.php(9): CodeIgniter\Database\BaseConnection->query('SELECT name, title, email FROM my_table')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\DatabaseTest->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DatabaseTest))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-26 01:52:38 --> mysqli_sql_exception: Table 'tablesconnect.my_table' doesn't exist in D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT name, ti...', 0)
+#1 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT name, ti...')
+#2 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT name, ti...')
+#3 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\app\Controllers\DatabaseTest.php(9): CodeIgniter\Database\BaseConnection->query('SELECT name, ti...')
+#4 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\CodeIgniter.php(919): App\Controllers\DatabaseTest->index()
+#5 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DatabaseTest))
+#6 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-10-26 01:52:38 --> Table 'tablesconnect.my_table' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 APPPATH\Controllers\DatabaseTest.php(9): CodeIgniter\Database\BaseConnection->query('SELECT name, title, email FROM my_table')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\DatabaseTest->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DatabaseTest))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-26 01:53:15 --> Undefined property: stdClass::$title
+in APPPATH\Controllers\DatabaseTest.php on line 13.
+ 1 APPPATH\Controllers\DatabaseTest.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$title', 'D:\\gcham\\Documents\\XamppInstall\\htdocs\\codeigniter4_basics\\app\\Controllers\\DatabaseTest.php', 13)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\DatabaseTest->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DatabaseTest))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-26 01:53:16 --> Undefined property: stdClass::$title
+in APPPATH\Controllers\DatabaseTest.php on line 13.
+ 1 APPPATH\Controllers\DatabaseTest.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$title', 'D:\\gcham\\Documents\\XamppInstall\\htdocs\\codeigniter4_basics\\app\\Controllers\\DatabaseTest.php', 13)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\DatabaseTest->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DatabaseTest))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
