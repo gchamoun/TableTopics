@@ -1,3 +1,4 @@
+  <body style="padding-top: 72px;">
     <header class="header">
       <!-- Navbar-->
       <nav class="navbar navbar-expand-lg fixed-top shadow navbar-light bg-white">

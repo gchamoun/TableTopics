@@ -1,3 +1,4 @@
+  <!-- Footer-->
     <footer class="position-relative z-index-10 d-print-none">
       <!-- Main block - menus, subscribe form-->
       <div class="py-6 bg-gray-200 text-muted"> 
@@ -90,25 +91,22 @@
       injectSvgSprite('https://demo.bootstrapious.com/directory/1-4/icons/orion-svg-sprite.svg'); 
       
     </script>
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-
-    <!-- jQuery-->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <!-- Bootstrap JS bundle - Bootstrap + PopperJS-->
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <!-- Magnific Popup - Lightbox for the gallery-->
-    <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
-    <!-- Smooth scroll-->
-    <script src="vendor/smooth-scroll/smooth-scroll.polyfills.min.js"></script>
-    <!-- Bootstrap Select-->
-    <script src="vendor/bootstrap-select/js/bootstrap-select.min.js"></script>
-    <!-- Object Fit Images - Fallback for browsers that don't support object-fit-->
-    <script src="vendor/object-fit-images/ofi.min.js"></script>
-    <!-- Swiper Carousel                       -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.1/js/swiper.min.js"></script>
-    <script>var basePath = ''</script>
+<!-- jQuery-->
+<script src="<?= base_url('vendor/jquery/jquery.min.js') ?>"></script>
+<!-- Bootstrap JS bundle - Bootstrap + PopperJS-->
+<script src="<?= base_url('vendor/bootstrap/js/bootstrap.bundle.min.js') ?>"></script>
+<!-- Magnific Popup - Lightbox for the gallery-->
+<script src="<?= base_url('vendor/magnific-popup/jquery.magnific-popup.min.js') ?>"></script>
+<!-- Smooth scroll-->
+<script src="<?= base_url('vendor/smooth-scroll/smooth-scroll.polyfills.min.js') ?>"></script>
+<!-- Bootstrap Select-->
+<script src="<?= base_url('vendor/bootstrap-select/js/bootstrap-select.min.js') ?>"></script>
+<!-- Object Fit Images - Fallback for browsers that don't support object-fit-->
+<script src="<?= base_url('vendor/object-fit-images/ofi.min.js') ?>"></script>
+<!-- Swiper Carousel -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.1/js/swiper.min.js"></script>
+<script>var basePath = '<?= base_url() ?>'</script>
     <!-- Main Theme JS file    -->
-    <script src="/public/js/theme.js"></script>
+    <script src="js/theme.js"></script>
   </body>
 </html>

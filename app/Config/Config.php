@@ -6,5 +6,6 @@ use CodeIgniter\Config\BaseConfig;
 
 class App extends BaseConfig
 {
-    public $baseURL = 'localhost';
+    public $baseURL = 'http://localhost/';
+
 }
