@@ -199,7 +199,7 @@
 			promptLine = '<span data-prompt="' + promptText + '"></span>';
 		} else {
 			var user = getAttribute('data-user', 'user');
-			var host = getAttribute('data-host', 'localhost');
+			var host = getAttribute('data-host', '192.168.1.191');
 			promptLine = '<span data-user="' + user + '" data-host="' + host + '"></span>';
 		}
 

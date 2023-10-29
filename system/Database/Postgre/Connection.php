@@ -98,7 +98,7 @@ class Connection extends BaseConnection
         $this->DSN = mb_substr($this->DSN, 6);
 
         // Convert semicolons to spaces in DSN format like:
-        // pgsql:host=localhost;port=5432;dbname=database_name
+        // pgsql:host=192.168.1.191;port=5432;dbname=database_name
         // https://www.php.net/manual/en/function.pg-connect.php
         $allowedParams = ['host', 'port', 'dbname', 'user', 'password', 'connect_timeout', 'options', 'sslmode', 'service'];
 
@@ -526,7 +526,7 @@ class Connection extends BaseConnection
         // array, but they might be set by parse_url() if the configuration was
         // provided via string> Example:
         //
-        // Postgre://username:password@localhost:5432/database?connect_timeout=5&sslmode=1
+        // Postgre://username:password@192.168.1.191:5432/database?connect_timeout=5&sslmode=1
         foreach (['connect_timeout', 'options', 'sslmode', 'service'] as $key) {
             if (isset($this->{$key}) && is_string($this->{$key}) && $this->{$key} !== '') {
                 $this->DSN .= "{$key}='{$this->{$key}}' ";

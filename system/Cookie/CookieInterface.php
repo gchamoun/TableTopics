@@ -117,7 +117,7 @@ interface CookieInterface
      * Gets the "Secure" cookie attribute.
      *
      * Checks if the cookie is only sent to the server when a request is made
-     * with the `https:` scheme (except on `localhost`), and therefore is more
+     * with the `https:` scheme (except on `192.168.1.191`), and therefore is more
      * resistent to man-in-the-middle attacks.
      */
     public function isSecure(): bool;

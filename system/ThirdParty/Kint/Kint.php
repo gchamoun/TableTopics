@@ -80,7 +80,7 @@ class Kint implements FacadeInterface
      *
      * [!] EXAMPLE (works with for phpStorm and RemoteCall Plugin):
      *
-     * Kint::$file_link_format = 'http://localhost:8091/?message=%f:%l';
+     * Kint::$file_link_format = 'http://192.168.1.191:8091/?message=%f:%l';
      */
     public static $file_link_format = '';
 

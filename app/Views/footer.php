@@ -2,7 +2,7 @@
     <footer class="position-relative z-index-10 d-print-none">
       <!-- Main block - menus, subscribe form-->
       <div class="py-6 bg-gray-200 text-muted"> 
-        <div class="container">
+<!--         <div class="container">
           <div class="row">
             <div class="col-lg-4 mb-5 mb-lg-0">
               <div class="fw-bold text-uppercase text-dark mb-3">Directory</div>
@@ -45,21 +45,19 @@
             </div>
           </div>
         </div>
-      </div>
+ -->      </div>
       <!-- Copyright section of the footer-->
       <div class="py-4 fw-light bg-gray-800 text-gray-300">
         <div class="container">
           <div class="row align-items-center">
             <div class="col-md-6 text-center text-md-start">
-              <p class="text-sm mb-md-0">&copy; 2021, Your company.  All rights reserved.</p>
+              <p class="text-sm mb-md-0">Prototype</p>
             </div>
             <div class="col-md-6">
-              <ul class="list-inline mb-0 mt-2 mt-md-0 text-center text-md-end">
-                <li class="list-inline-item"><img class="w-2rem" src="img/visa.svg" alt="..."></li>
-                <li class="list-inline-item"><img class="w-2rem" src="img/mastercard.svg" alt="..."></li>
-                <li class="list-inline-item"><img class="w-2rem" src="img/paypal.svg" alt="..."></li>
-                <li class="list-inline-item"><img class="w-2rem" src="img/western-union.svg" alt="..."></li>
-              </ul>
+</br>
+                                          <p align="center" class="text-sm mb-md-0">Link to Survey</p>
+
+
             </div>
           </div>
         </div>

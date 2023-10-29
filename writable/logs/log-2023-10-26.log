@@ -122,9 +122,9 @@ in APPPATH\Controllers\DatabaseTest.php on line 17.
  4 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
  5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
  6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
-ERROR - 2023-10-26 01:38:03 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\Database\MySQLi\Connection.php:184
+ERROR - 2023-10-26 01:38:03 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'192.168.1.191' (using password: NO) in D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\Database\MySQLi\Connection.php:184
 Stack trace:
-#0 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', '', Object(SensitiveParameterValue), '', 3306, '', 0)
+#0 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('192.168.1.191', '', Object(SensitiveParameterValue), '', 3306, '', 0)
 #1 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
 #2 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
 #3 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\app\Controllers\DatabaseTest.php(13): CodeIgniter\Database\BaseConnection->query('se;ect * from s...')
@@ -134,7 +134,7 @@ Stack trace:
 #7 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\public\index.php(79): CodeIgniter\CodeIgniter->run()
 #8 {main}
 
-Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\Database\MySQLi\Connection.php:229
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'192.168.1.191' (using password: NO) in D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\Database\MySQLi\Connection.php:229
 Stack trace:
 #0 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
 #1 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
@@ -145,7 +145,7 @@ Stack trace:
 #6 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\public\index.php(79): CodeIgniter\CodeIgniter->run()
 #7 {main}
 CRITICAL - 2023-10-26 01:38:03 --> Unable to connect to the database.
-Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+Main connection [MySQLi]: Access denied for user ''@'192.168.1.191' (using password: NO)
 in SYSTEMPATH\Database\BaseConnection.php on line 427.
  1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
  2 APPPATH\Controllers\DatabaseTest.php(13): CodeIgniter\Database\BaseConnection->query('se;ect * from stores')
@@ -153,9 +153,9 @@ in SYSTEMPATH\Database\BaseConnection.php on line 427.
  4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DatabaseTest))
  5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
  6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
-ERROR - 2023-10-26 01:40:56 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\Database\MySQLi\Connection.php:184
+ERROR - 2023-10-26 01:40:56 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'192.168.1.191' (using password: NO) in D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\Database\MySQLi\Connection.php:184
 Stack trace:
-#0 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', '', Object(SensitiveParameterValue), '', 3306, '', 0)
+#0 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('192.168.1.191', '', Object(SensitiveParameterValue), '', 3306, '', 0)
 #1 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
 #2 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
 #3 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\app\Controllers\DatabaseTest.php(13): CodeIgniter\Database\BaseConnection->query('se;ect * from s...')
@@ -165,7 +165,7 @@ Stack trace:
 #7 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\public\index.php(79): CodeIgniter\CodeIgniter->run()
 #8 {main}
 
-Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\Database\MySQLi\Connection.php:229
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'192.168.1.191' (using password: NO) in D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\Database\MySQLi\Connection.php:229
 Stack trace:
 #0 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
 #1 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
@@ -176,7 +176,7 @@ Stack trace:
 #6 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\public\index.php(79): CodeIgniter\CodeIgniter->run()
 #7 {main}
 CRITICAL - 2023-10-26 01:40:56 --> Unable to connect to the database.
-Main connection [mysqli]: Access denied for user ''@'localhost' (using password: NO)
+Main connection [mysqli]: Access denied for user ''@'192.168.1.191' (using password: NO)
 in SYSTEMPATH\Database\BaseConnection.php on line 427.
  1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
  2 APPPATH\Controllers\DatabaseTest.php(13): CodeIgniter\Database\BaseConnection->query('se;ect * from stores')
@@ -184,9 +184,9 @@ in SYSTEMPATH\Database\BaseConnection.php on line 427.
  4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DatabaseTest))
  5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
  6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
-ERROR - 2023-10-26 01:41:01 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\Database\MySQLi\Connection.php:184
+ERROR - 2023-10-26 01:41:01 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'192.168.1.191' (using password: NO) in D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\Database\MySQLi\Connection.php:184
 Stack trace:
-#0 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', '', Object(SensitiveParameterValue), '', 3306, '', 0)
+#0 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('192.168.1.191', '', Object(SensitiveParameterValue), '', 3306, '', 0)
 #1 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
 #2 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
 #3 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\app\Controllers\DatabaseTest.php(13): CodeIgniter\Database\BaseConnection->query('se;ect * from s...')
@@ -196,7 +196,7 @@ Stack trace:
 #7 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\public\index.php(79): CodeIgniter\CodeIgniter->run()
 #8 {main}
 
-Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\Database\MySQLi\Connection.php:229
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'192.168.1.191' (using password: NO) in D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\Database\MySQLi\Connection.php:229
 Stack trace:
 #0 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
 #1 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
@@ -207,7 +207,7 @@ Stack trace:
 #6 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\public\index.php(79): CodeIgniter\CodeIgniter->run()
 #7 {main}
 CRITICAL - 2023-10-26 01:41:01 --> Unable to connect to the database.
-Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+Main connection [MySQLi]: Access denied for user ''@'192.168.1.191' (using password: NO)
 in SYSTEMPATH\Database\BaseConnection.php on line 427.
  1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
  2 APPPATH\Controllers\DatabaseTest.php(13): CodeIgniter\Database\BaseConnection->query('se;ect * from stores')
@@ -215,9 +215,9 @@ in SYSTEMPATH\Database\BaseConnection.php on line 427.
  4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DatabaseTest))
  5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
  6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
-ERROR - 2023-10-26 01:42:05 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\Database\MySQLi\Connection.php:184
+ERROR - 2023-10-26 01:42:05 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'192.168.1.191' (using password: NO) in D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\Database\MySQLi\Connection.php:184
 Stack trace:
-#0 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', '', Object(SensitiveParameterValue), '', 3306, '', 0)
+#0 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('192.168.1.191', '', Object(SensitiveParameterValue), '', 3306, '', 0)
 #1 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
 #2 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
 #3 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\app\Controllers\DatabaseTest.php(13): CodeIgniter\Database\BaseConnection->query('se;ect * from s...')
@@ -227,7 +227,7 @@ Stack trace:
 #7 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\public\index.php(79): CodeIgniter\CodeIgniter->run()
 #8 {main}
 
-Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\Database\MySQLi\Connection.php:229
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'192.168.1.191' (using password: NO) in D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\Database\MySQLi\Connection.php:229
 Stack trace:
 #0 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
 #1 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
@@ -238,7 +238,7 @@ Stack trace:
 #6 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\public\index.php(79): CodeIgniter\CodeIgniter->run()
 #7 {main}
 CRITICAL - 2023-10-26 01:42:05 --> Unable to connect to the database.
-Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+Main connection [MySQLi]: Access denied for user ''@'192.168.1.191' (using password: NO)
 in SYSTEMPATH\Database\BaseConnection.php on line 427.
  1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
  2 APPPATH\Controllers\DatabaseTest.php(13): CodeIgniter\Database\BaseConnection->query('se;ect * from stores')
@@ -273,9 +273,9 @@ in SYSTEMPATH\Database\Database.php on line 137.
  5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DatabaseTest))
  6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
  7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
-ERROR - 2023-10-26 01:43:04 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\Database\MySQLi\Connection.php:184
+ERROR - 2023-10-26 01:43:04 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'192.168.1.191' (using password: NO) in D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\Database\MySQLi\Connection.php:184
 Stack trace:
-#0 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', '', Object(SensitiveParameterValue), '', 3306, '', 0)
+#0 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('192.168.1.191', '', Object(SensitiveParameterValue), '', 3306, '', 0)
 #1 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
 #2 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
 #3 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\app\Controllers\DatabaseTest.php(13): CodeIgniter\Database\BaseConnection->query('se;ect * from s...')
@@ -285,7 +285,7 @@ Stack trace:
 #7 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\public\index.php(79): CodeIgniter\CodeIgniter->run()
 #8 {main}
 
-Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\Database\MySQLi\Connection.php:229
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'192.168.1.191' (using password: NO) in D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\Database\MySQLi\Connection.php:229
 Stack trace:
 #0 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
 #1 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
@@ -296,7 +296,7 @@ Stack trace:
 #6 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\public\index.php(79): CodeIgniter\CodeIgniter->run()
 #7 {main}
 CRITICAL - 2023-10-26 01:43:04 --> Unable to connect to the database.
-Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+Main connection [MySQLi]: Access denied for user ''@'192.168.1.191' (using password: NO)
 in SYSTEMPATH\Database\BaseConnection.php on line 427.
  1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
  2 APPPATH\Controllers\DatabaseTest.php(13): CodeIgniter\Database\BaseConnection->query('se;ect * from stores')
@@ -304,9 +304,9 @@ in SYSTEMPATH\Database\BaseConnection.php on line 427.
  4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DatabaseTest))
  5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
  6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
-ERROR - 2023-10-26 01:44:21 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\Database\MySQLi\Connection.php:184
+ERROR - 2023-10-26 01:44:21 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'192.168.1.191' (using password: NO) in D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\Database\MySQLi\Connection.php:184
 Stack trace:
-#0 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', '', Object(SensitiveParameterValue), '', 3306, '', 0)
+#0 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('192.168.1.191', '', Object(SensitiveParameterValue), '', 3306, '', 0)
 #1 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
 #2 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
 #3 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\app\Controllers\DatabaseTest.php(13): CodeIgniter\Database\BaseConnection->query('se;ect * from s...')
@@ -316,7 +316,7 @@ Stack trace:
 #7 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\public\index.php(79): CodeIgniter\CodeIgniter->run()
 #8 {main}
 
-Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\Database\MySQLi\Connection.php:229
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'192.168.1.191' (using password: NO) in D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\Database\MySQLi\Connection.php:229
 Stack trace:
 #0 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
 #1 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
@@ -327,7 +327,7 @@ Stack trace:
 #6 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\public\index.php(79): CodeIgniter\CodeIgniter->run()
 #7 {main}
 CRITICAL - 2023-10-26 01:44:21 --> Unable to connect to the database.
-Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+Main connection [MySQLi]: Access denied for user ''@'192.168.1.191' (using password: NO)
 in SYSTEMPATH\Database\BaseConnection.php on line 427.
  1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
  2 APPPATH\Controllers\DatabaseTest.php(13): CodeIgniter\Database\BaseConnection->query('se;ect * from stores')
@@ -335,9 +335,9 @@ in SYSTEMPATH\Database\BaseConnection.php on line 427.
  4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DatabaseTest))
  5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
  6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
-ERROR - 2023-10-26 01:44:23 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\Database\MySQLi\Connection.php:184
+ERROR - 2023-10-26 01:44:23 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'192.168.1.191' (using password: NO) in D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\Database\MySQLi\Connection.php:184
 Stack trace:
-#0 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', '', Object(SensitiveParameterValue), '', 3306, '', 0)
+#0 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('192.168.1.191', '', Object(SensitiveParameterValue), '', 3306, '', 0)
 #1 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
 #2 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
 #3 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\app\Controllers\DatabaseTest.php(13): CodeIgniter\Database\BaseConnection->query('se;ect * from s...')
@@ -347,7 +347,7 @@ Stack trace:
 #7 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\public\index.php(79): CodeIgniter\CodeIgniter->run()
 #8 {main}
 
-Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\Database\MySQLi\Connection.php:229
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'192.168.1.191' (using password: NO) in D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\Database\MySQLi\Connection.php:229
 Stack trace:
 #0 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
 #1 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
@@ -358,7 +358,7 @@ Stack trace:
 #6 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\public\index.php(79): CodeIgniter\CodeIgniter->run()
 #7 {main}
 CRITICAL - 2023-10-26 01:44:23 --> Unable to connect to the database.
-Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+Main connection [MySQLi]: Access denied for user ''@'192.168.1.191' (using password: NO)
 in SYSTEMPATH\Database\BaseConnection.php on line 427.
  1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
  2 APPPATH\Controllers\DatabaseTest.php(13): CodeIgniter\Database\BaseConnection->query('se;ect * from stores')
@@ -366,9 +366,9 @@ in SYSTEMPATH\Database\BaseConnection.php on line 427.
  4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DatabaseTest))
  5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
  6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
-ERROR - 2023-10-26 01:44:25 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\Database\MySQLi\Connection.php:184
+ERROR - 2023-10-26 01:44:25 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'192.168.1.191' (using password: NO) in D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\Database\MySQLi\Connection.php:184
 Stack trace:
-#0 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', '', Object(SensitiveParameterValue), '', 3306, '', 0)
+#0 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('192.168.1.191', '', Object(SensitiveParameterValue), '', 3306, '', 0)
 #1 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
 #2 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
 #3 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\app\Controllers\DatabaseTest.php(13): CodeIgniter\Database\BaseConnection->query('se;ect * from s...')
@@ -378,7 +378,7 @@ Stack trace:
 #7 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\public\index.php(79): CodeIgniter\CodeIgniter->run()
 #8 {main}
 
-Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\Database\MySQLi\Connection.php:229
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'192.168.1.191' (using password: NO) in D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\Database\MySQLi\Connection.php:229
 Stack trace:
 #0 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
 #1 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
@@ -389,7 +389,7 @@ Stack trace:
 #6 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\public\index.php(79): CodeIgniter\CodeIgniter->run()
 #7 {main}
 CRITICAL - 2023-10-26 01:44:25 --> Unable to connect to the database.
-Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+Main connection [MySQLi]: Access denied for user ''@'192.168.1.191' (using password: NO)
 in SYSTEMPATH\Database\BaseConnection.php on line 427.
  1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
  2 APPPATH\Controllers\DatabaseTest.php(13): CodeIgniter\Database\BaseConnection->query('se;ect * from stores')
@@ -397,9 +397,9 @@ in SYSTEMPATH\Database\BaseConnection.php on line 427.
  4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DatabaseTest))
  5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
  6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
-ERROR - 2023-10-26 01:44:26 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\Database\MySQLi\Connection.php:184
+ERROR - 2023-10-26 01:44:26 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'192.168.1.191' (using password: NO) in D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\Database\MySQLi\Connection.php:184
 Stack trace:
-#0 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', '', Object(SensitiveParameterValue), '', 3306, '', 0)
+#0 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('192.168.1.191', '', Object(SensitiveParameterValue), '', 3306, '', 0)
 #1 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
 #2 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
 #3 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\app\Controllers\DatabaseTest.php(13): CodeIgniter\Database\BaseConnection->query('se;ect * from s...')
@@ -409,7 +409,7 @@ Stack trace:
 #7 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\public\index.php(79): CodeIgniter\CodeIgniter->run()
 #8 {main}
 
-Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\Database\MySQLi\Connection.php:229
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'192.168.1.191' (using password: NO) in D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\Database\MySQLi\Connection.php:229
 Stack trace:
 #0 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
 #1 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
@@ -420,7 +420,7 @@ Stack trace:
 #6 D:\gcham\Documents\XamppInstall\htdocs\codeigniter4_basics\public\index.php(79): CodeIgniter\CodeIgniter->run()
 #7 {main}
 CRITICAL - 2023-10-26 01:44:26 --> Unable to connect to the database.
-Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+Main connection [MySQLi]: Access denied for user ''@'192.168.1.191' (using password: NO)
 in SYSTEMPATH\Database\BaseConnection.php on line 427.
  1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
  2 APPPATH\Controllers\DatabaseTest.php(13): CodeIgniter\Database\BaseConnection->query('se;ect * from stores')
