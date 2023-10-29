@@ -26,11 +26,11 @@ class Database extends Config
      */
     public array $default = [
         'DSN'          => '',
-        'hostname'     => '192.168.1.191',
-        'username'     => '',
+        'hostname'     => 'localhost',
+        'username'     => 'root',
         'password'     => '',
-        'database'     => 'tablesconnect',
-        'DBDriver'     => 'MySQLi',
+        'database'     => 'tables_connect',
+        'DBDriver'     => 'mysqli',
         'DBPrefix'     => '',
         'pConnect'     => false,
         'DBDebug'      => true,
@@ -51,11 +51,11 @@ class Database extends Config
      */
     public array $tests = [
         'DSN'         => '',
-        'hostname'    => '127.0.0.1',
+        'hostname'    => 'localhost',
         'username'    => '',
         'password'    => '',
-        'database'    => ':memory:',
-        'DBDriver'    => 'SQLite3',
+        'database'    => 'tables_connect:',
+        'DBDriver'    => 'mysqli',
         'DBPrefix'    => 'db_',  // Needed to ensure we're working correctly with prefixes live. DO NOT REMOVE FOR CI DEVS
         'pConnect'    => false,
         'DBDebug'     => true,

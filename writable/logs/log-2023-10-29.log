@@ -533,3 +533,700 @@ in APPPATH\Controllers\Home.php on line 11.
  3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
  4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
  5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-29 12:47:01 --> Undefined array key "table"
+in APPPATH\Controllers\Home.php on line 11.
+ 1 APPPATH\Controllers\Home.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "table"', 'C:\\XammpNew\\tabletopics\\app\\Controllers\\Home.php', 11)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-29 12:47:01 --> Undefined array key "table"
+in APPPATH\Controllers\Home.php on line 11.
+ 1 APPPATH\Controllers\Home.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "table"', 'C:\\XammpNew\\tabletopics\\app\\Controllers\\Home.php', 11)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-29 13:02:03 --> Undefined array key "table"
+in APPPATH\Controllers\Home.php on line 11.
+ 1 APPPATH\Controllers\Home.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "table"', 'C:\\XammpNew\\tabletopics\\app\\Controllers\\Home.php', 11)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-29 13:02:03 --> Undefined array key "table"
+in APPPATH\Controllers\Home.php on line 11.
+ 1 APPPATH\Controllers\Home.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "table"', 'C:\\XammpNew\\tabletopics\\app\\Controllers\\Home.php', 11)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-29 13:02:08 --> Undefined array key "store"
+in APPPATH\Controllers\Home.php on line 12.
+ 1 APPPATH\Controllers\Home.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "store"', 'C:\\XammpNew\\tabletopics\\app\\Controllers\\Home.php', 12)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-29 13:02:10 --> Undefined array key "table"
+in APPPATH\Controllers\Home.php on line 11.
+ 1 APPPATH\Controllers\Home.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "table"', 'C:\\XammpNew\\tabletopics\\app\\Controllers\\Home.php', 11)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-29 13:02:20 --> Cannot call constructor
+in APPPATH\Controllers\Prompt.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Prompt->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-29 13:02:23 --> Cannot call constructor
+in APPPATH\Controllers\Prompt.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Prompt->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-29 13:03:41 --> Cannot call constructor
+in APPPATH\Controllers\Prompt.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Prompt->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-29 13:04:26 --> Cannot call constructor
+in APPPATH\Controllers\Prompt.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Prompt->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-29 13:04:57 --> Cannot call constructor
+in APPPATH\Controllers\Prompt.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Prompt->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-29 13:05:01 --> Cannot call constructor
+in APPPATH\Controllers\Prompt.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Prompt->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-29 13:09:49 --> Cannot call constructor
+in APPPATH\Controllers\Prompt.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Prompt->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-29 13:11:20 --> Class "App\Controllers\CI_Controller" not found
+in APPPATH\Controllers\Prompt.php on line 5.
+ 1 SYSTEMPATH\Router\AutoRouter.php(161): include_once()
+ 2 SYSTEMPATH\Router\Router.php(512): CodeIgniter\Router\AutoRouter->getRoute('prompt/submit', 'post')
+ 3 SYSTEMPATH\Router\Router.php(208): CodeIgniter\Router\Router->autoRoute('prompt/submit')
+ 4 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('prompt/submit')
+ 5 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-29 13:12:39 --> Class "App\Controllers\PromptModal" not found
+in APPPATH\Controllers\Prompt.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Prompt->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-29 13:14:37 --> Class "App\Controllers\PromptModal" not found
+in APPPATH\Controllers\Prompt.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Prompt->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-29 13:14:40 --> Class "App\Controllers\PromptModal" not found
+in APPPATH\Controllers\Prompt.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Prompt->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-29 13:15:31 --> Class "App\Models\PromptModal" not found
+in APPPATH\Controllers\Prompt.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Prompt->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-29 13:15:33 --> Class "App\Models\PromptModal" not found
+in APPPATH\Controllers\Prompt.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Prompt->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-29 13:16:12 --> Class "App\Controllers\PromptModal" not found
+in APPPATH\Controllers\Prompt.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Prompt->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-29 13:16:15 --> Class "App\Controllers\PromptModal" not found
+in APPPATH\Controllers\Prompt.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Prompt->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-29 13:16:16 --> Class "App\Controllers\PromptModal" not found
+in APPPATH\Controllers\Prompt.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Prompt->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-29 13:16:18 --> Class "App\Models\PromptModal" not found
+in APPPATH\Controllers\Prompt.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Prompt->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-29 13:17:30 --> syntax error, unexpected token "/", expecting "," or ";"
+in APPPATH\Controllers\Prompt.php on line 4.
+ 1 SYSTEMPATH\Router\Router.php(512): CodeIgniter\Router\AutoRouter->getRoute('prompt', 'get')
+ 2 SYSTEMPATH\Router\Router.php(208): CodeIgniter\Router\Router->autoRoute('prompt')
+ 3 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('prompt')
+ 4 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-29 13:18:03 --> Class "App\Models\PromptModal" not found
+in APPPATH\Controllers\Prompt.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Prompt->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-29 13:18:48 --> Class "App\Models\PromptModel" not found
+in APPPATH\Controllers\Prompt.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Prompt->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-29 13:19:25 --> Class "App\Models\PromptModel" not found
+in APPPATH\Controllers\Prompt.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Prompt->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-29 13:19:27 --> Class "App\Models\PromptModel" not found
+in APPPATH\Controllers\Prompt.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Prompt->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-29 13:20:11 --> [DEPRECATED] Creation of dynamic property App\Controllers\Prompt::$PromptModel is deprecated in APPPATH\Controllers\Prompt.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Prompt->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-29 13:20:14 --> [DEPRECATED] Creation of dynamic property App\Controllers\Prompt::$PromptModel is deprecated in APPPATH\Controllers\Prompt.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Prompt->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-29 13:20:14 --> Undefined array key "answers"
+in APPPATH\Controllers\Prompt.php on line 45.
+ 1 APPPATH\Controllers\Prompt.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "answers"', 'C:\\XammpNew\\tabletopics\\app\\Controllers\\Prompt.php', 45)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Prompt->submit()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prompt))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-29 13:21:09 --> [DEPRECATED] Creation of dynamic property App\Controllers\Prompt::$PromptModel is deprecated in APPPATH\Controllers\Prompt.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Prompt->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-29 13:21:09 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::insert()
+in APPPATH\Models\PromptModel.php on line 13.
+ 1 APPPATH\Controllers\Prompt.php(46): App\Models\PromptModel->saverecords([...])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Prompt->submit()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prompt))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-29 13:23:22 --> [DEPRECATED] Creation of dynamic property App\Controllers\Prompt::$PromptModel is deprecated in APPPATH\Controllers\Prompt.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Prompt->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-29 13:23:22 --> Undefined variable $builder
+in APPPATH\Models\PromptModel.php on line 13.
+ 1 APPPATH\Models\PromptModel.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $builder', 'C:\\XammpNew\\tabletopics\\app\\Models\\PromptModel.php', 13)
+ 2 APPPATH\Controllers\Prompt.php(46): App\Models\PromptModel->saverecords([...])
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Prompt->submit()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prompt))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-29 13:23:47 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+in APPPATH\Models\PromptModel.php on line 4.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-10-29 13:24:21 --> Class "App\Models\PromptModel" not found
+in APPPATH\Controllers\Prompt.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Prompt->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-29 13:24:35 --> Class "App\Models\PromptModel" not found
+in APPPATH\Controllers\Prompt.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Prompt->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-29 13:24:40 --> [DEPRECATED] Creation of dynamic property App\Controllers\Prompt::$PromptModel is deprecated in APPPATH\Controllers\Prompt.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Prompt->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-29 13:24:40 --> Undefined variable $builder
+in APPPATH\Models\PromptModel.php on line 13.
+ 1 APPPATH\Models\PromptModel.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $builder', 'C:\\XammpNew\\tabletopics\\app\\Models\\PromptModel.php', 13)
+ 2 APPPATH\Controllers\Prompt.php(46): App\Models\PromptModel->saverecords([...])
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Prompt->submit()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prompt))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-29 13:25:21 --> [DEPRECATED] Creation of dynamic property App\Controllers\Prompt::$PromptModel is deprecated in APPPATH\Controllers\Prompt.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Prompt->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-29 13:25:21 --> Allowed fields must be specified for model: "App\Models\PromptModel"
+in SYSTEMPATH\Model.php on line 736.
+ 1 SYSTEMPATH\Model.php(736): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\PromptModel')
+ 2 SYSTEMPATH\BaseModel.php(763): CodeIgniter\Model->doProtectFieldsForInsert([...])
+ 3 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 4 APPPATH\Models\PromptModel.php(14): CodeIgniter\Model->insert([...])
+ 5 APPPATH\Controllers\Prompt.php(46): App\Models\PromptModel->saverecords([...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Prompt->submit()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prompt))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-29 13:26:40 --> [DEPRECATED] Creation of dynamic property App\Controllers\Prompt::$PromptModel is deprecated in APPPATH\Controllers\Prompt.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Prompt->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-29 13:26:40 --> Allowed fields must be specified for model: "App\Models\PromptModel"
+in SYSTEMPATH\Model.php on line 736.
+ 1 SYSTEMPATH\Model.php(736): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\PromptModel')
+ 2 SYSTEMPATH\BaseModel.php(763): CodeIgniter\Model->doProtectFieldsForInsert([...])
+ 3 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 4 APPPATH\Models\PromptModel.php(16): CodeIgniter\Model->insert([...])
+ 5 APPPATH\Controllers\Prompt.php(46): App\Models\PromptModel->saverecords([...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Prompt->submit()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prompt))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-29 13:26:52 --> [DEPRECATED] Creation of dynamic property App\Controllers\Prompt::$PromptModel is deprecated in APPPATH\Controllers\Prompt.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Prompt->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-29 13:26:54 --> [DEPRECATED] Creation of dynamic property App\Controllers\Prompt::$PromptModel is deprecated in APPPATH\Controllers\Prompt.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Prompt->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-29 13:26:54 --> Allowed fields must be specified for model: "App\Models\PromptModel"
+in SYSTEMPATH\Model.php on line 736.
+ 1 SYSTEMPATH\Model.php(736): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\PromptModel')
+ 2 SYSTEMPATH\BaseModel.php(763): CodeIgniter\Model->doProtectFieldsForInsert([...])
+ 3 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 4 APPPATH\Models\PromptModel.php(16): CodeIgniter\Model->insert([...])
+ 5 APPPATH\Controllers\Prompt.php(46): App\Models\PromptModel->saverecords([...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Prompt->submit()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prompt))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-29 13:28:17 --> [DEPRECATED] Creation of dynamic property App\Controllers\Prompt::$PromptModel is deprecated in APPPATH\Controllers\Prompt.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Prompt->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-29 13:28:17 --> Undefined array key "store"
+in APPPATH\Controllers\Prompt.php on line 40.
+ 1 APPPATH\Controllers\Prompt.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "store"', 'C:\\XammpNew\\tabletopics\\app\\Controllers\\Prompt.php', 40)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Prompt->submit()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prompt))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-29 13:28:32 --> [DEPRECATED] Creation of dynamic property App\Controllers\Prompt::$PromptModel is deprecated in APPPATH\Controllers\Prompt.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Prompt->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-29 13:28:37 --> [DEPRECATED] Creation of dynamic property App\Controllers\Prompt::$PromptModel is deprecated in APPPATH\Controllers\Prompt.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Prompt->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-29 13:28:37 --> Error connecting to the database: mysqli_sql_exception: Host 'DESKTOP-UA3QUIU.lan' is not allowed to connect to this MariaDB server in C:\XammpNew\tabletopics\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\XammpNew\tabletopics\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('192.168.1.191', 'root', Object(SensitiveParameterValue), 'tables_connect', 3306, '', 0)
+#1 C:\XammpNew\tabletopics\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\XammpNew\tabletopics\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\XammpNew\tabletopics\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `an...', Array, false)
+#4 C:\XammpNew\tabletopics\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\XammpNew\tabletopics\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\XammpNew\tabletopics\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\XammpNew\tabletopics\app\Models\PromptModel.php(16): CodeIgniter\Model->insert(Array)
+#8 C:\XammpNew\tabletopics\app\Controllers\Prompt.php(46): App\Models\PromptModel->saverecords(Array)
+#9 C:\XammpNew\tabletopics\system\CodeIgniter.php(919): App\Controllers\Prompt->submit()
+#10 C:\XammpNew\tabletopics\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prompt))
+#11 C:\XammpNew\tabletopics\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\XammpNew\tabletopics\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Host 'DESKTOP-UA3QUIU.lan' is not allowed to connect to this MariaDB server in C:\XammpNew\tabletopics\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\XammpNew\tabletopics\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\XammpNew\tabletopics\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\XammpNew\tabletopics\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `an...', Array, false)
+#3 C:\XammpNew\tabletopics\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#4 C:\XammpNew\tabletopics\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#5 C:\XammpNew\tabletopics\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#6 C:\XammpNew\tabletopics\app\Models\PromptModel.php(16): CodeIgniter\Model->insert(Array)
+#7 C:\XammpNew\tabletopics\app\Controllers\Prompt.php(46): App\Models\PromptModel->saverecords(Array)
+#8 C:\XammpNew\tabletopics\system\CodeIgniter.php(919): App\Controllers\Prompt->submit()
+#9 C:\XammpNew\tabletopics\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prompt))
+#10 C:\XammpNew\tabletopics\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\XammpNew\tabletopics\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-10-29 13:28:37 --> Unable to connect to the database.
+Main connection [MySQLi]: Host 'DESKTOP-UA3QUIU.lan' is not allowed to connect to this MariaDB server
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `answers` (`Store_Id`, `Times_Id`, `Prompts_Id`, `Intentions_Id`, `Table_Number`, `Answer`) VALUES (:Store_Id:, :Times_Id:, :Prompts_Id:, :Intentions_Id:, :Table_Number:, :Answer:)', [...], false)
+ 3 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 4 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 5 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 6 APPPATH\Models\PromptModel.php(16): CodeIgniter\Model->insert([...])
+ 7 APPPATH\Controllers\Prompt.php(46): App\Models\PromptModel->saverecords([...])
+ 8 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Prompt->submit()
+ 9 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prompt))
+10 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-29 13:37:16 --> [DEPRECATED] Creation of dynamic property App\Controllers\Prompt::$PromptModel is deprecated in APPPATH\Controllers\Prompt.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Prompt->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-29 13:37:16 --> Error connecting to the database: mysqli_sql_exception: Host 'DESKTOP-UA3QUIU.lan' is not allowed to connect to this MariaDB server in C:\XammpNew\tabletopics\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\XammpNew\tabletopics\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('192.168.1.191', 'root', Object(SensitiveParameterValue), 'tables_connect', 3306, '', 0)
+#1 C:\XammpNew\tabletopics\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\XammpNew\tabletopics\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\XammpNew\tabletopics\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `an...', Array, false)
+#4 C:\XammpNew\tabletopics\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\XammpNew\tabletopics\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\XammpNew\tabletopics\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\XammpNew\tabletopics\app\Models\PromptModel.php(16): CodeIgniter\Model->insert(Array)
+#8 C:\XammpNew\tabletopics\app\Controllers\Prompt.php(46): App\Models\PromptModel->saverecords(Array)
+#9 C:\XammpNew\tabletopics\system\CodeIgniter.php(919): App\Controllers\Prompt->submit()
+#10 C:\XammpNew\tabletopics\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prompt))
+#11 C:\XammpNew\tabletopics\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\XammpNew\tabletopics\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Host 'DESKTOP-UA3QUIU.lan' is not allowed to connect to this MariaDB server in C:\XammpNew\tabletopics\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\XammpNew\tabletopics\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\XammpNew\tabletopics\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\XammpNew\tabletopics\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `an...', Array, false)
+#3 C:\XammpNew\tabletopics\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#4 C:\XammpNew\tabletopics\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#5 C:\XammpNew\tabletopics\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#6 C:\XammpNew\tabletopics\app\Models\PromptModel.php(16): CodeIgniter\Model->insert(Array)
+#7 C:\XammpNew\tabletopics\app\Controllers\Prompt.php(46): App\Models\PromptModel->saverecords(Array)
+#8 C:\XammpNew\tabletopics\system\CodeIgniter.php(919): App\Controllers\Prompt->submit()
+#9 C:\XammpNew\tabletopics\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prompt))
+#10 C:\XammpNew\tabletopics\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\XammpNew\tabletopics\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-10-29 13:37:16 --> Unable to connect to the database.
+Main connection [MySQLi]: Host 'DESKTOP-UA3QUIU.lan' is not allowed to connect to this MariaDB server
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `answers` (`Store_Id`, `Times_Id`, `Prompts_Id`, `Intentions_Id`, `Table_Number`, `Answer`) VALUES (:Store_Id:, :Times_Id:, :Prompts_Id:, :Intentions_Id:, :Table_Number:, :Answer:)', [...], false)
+ 3 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 4 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 5 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 6 APPPATH\Models\PromptModel.php(16): CodeIgniter\Model->insert([...])
+ 7 APPPATH\Controllers\Prompt.php(46): App\Models\PromptModel->saverecords([...])
+ 8 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Prompt->submit()
+ 9 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prompt))
+10 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-29 13:37:42 --> [DEPRECATED] Creation of dynamic property App\Controllers\Prompt::$PromptModel is deprecated in APPPATH\Controllers\Prompt.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Prompt->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-29 13:37:44 --> [DEPRECATED] Creation of dynamic property App\Controllers\Prompt::$PromptModel is deprecated in APPPATH\Controllers\Prompt.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Prompt->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-29 13:37:44 --> Error connecting to the database: mysqli_sql_exception: Host 'DESKTOP-UA3QUIU.lan' is not allowed to connect to this MariaDB server in C:\XammpNew\tabletopics\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\XammpNew\tabletopics\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('192.168.1.191', 'root', Object(SensitiveParameterValue), 'tables_connect', 3306, '', 0)
+#1 C:\XammpNew\tabletopics\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\XammpNew\tabletopics\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\XammpNew\tabletopics\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `an...', Array, false)
+#4 C:\XammpNew\tabletopics\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\XammpNew\tabletopics\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\XammpNew\tabletopics\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\XammpNew\tabletopics\app\Models\PromptModel.php(16): CodeIgniter\Model->insert(Array)
+#8 C:\XammpNew\tabletopics\app\Controllers\Prompt.php(46): App\Models\PromptModel->saverecords(Array)
+#9 C:\XammpNew\tabletopics\system\CodeIgniter.php(919): App\Controllers\Prompt->submit()
+#10 C:\XammpNew\tabletopics\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prompt))
+#11 C:\XammpNew\tabletopics\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\XammpNew\tabletopics\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Host 'DESKTOP-UA3QUIU.lan' is not allowed to connect to this MariaDB server in C:\XammpNew\tabletopics\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\XammpNew\tabletopics\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\XammpNew\tabletopics\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\XammpNew\tabletopics\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `an...', Array, false)
+#3 C:\XammpNew\tabletopics\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#4 C:\XammpNew\tabletopics\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#5 C:\XammpNew\tabletopics\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#6 C:\XammpNew\tabletopics\app\Models\PromptModel.php(16): CodeIgniter\Model->insert(Array)
+#7 C:\XammpNew\tabletopics\app\Controllers\Prompt.php(46): App\Models\PromptModel->saverecords(Array)
+#8 C:\XammpNew\tabletopics\system\CodeIgniter.php(919): App\Controllers\Prompt->submit()
+#9 C:\XammpNew\tabletopics\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prompt))
+#10 C:\XammpNew\tabletopics\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\XammpNew\tabletopics\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-10-29 13:37:44 --> Unable to connect to the database.
+Main connection [MySQLi]: Host 'DESKTOP-UA3QUIU.lan' is not allowed to connect to this MariaDB server
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `answers` (`Store_Id`, `Times_Id`, `Prompts_Id`, `Intentions_Id`, `Table_Number`, `Answer`) VALUES (:Store_Id:, :Times_Id:, :Prompts_Id:, :Intentions_Id:, :Table_Number:, :Answer:)', [...], false)
+ 3 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 4 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 5 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 6 APPPATH\Models\PromptModel.php(16): CodeIgniter\Model->insert([...])
+ 7 APPPATH\Controllers\Prompt.php(46): App\Models\PromptModel->saverecords([...])
+ 8 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Prompt->submit()
+ 9 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prompt))
+10 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-29 13:39:02 --> [DEPRECATED] Creation of dynamic property App\Controllers\Prompt::$PromptModel is deprecated in APPPATH\Controllers\Prompt.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Prompt->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-29 13:39:02 --> Error connecting to the database: mysqli_sql_exception: Host 'DESKTOP-UA3QUIU.lan' is not allowed to connect to this MariaDB server in C:\XammpNew\tabletopics\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\XammpNew\tabletopics\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('192.168.1.191', 'root', Object(SensitiveParameterValue), 'tables_connect', 3306, '', 0)
+#1 C:\XammpNew\tabletopics\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\XammpNew\tabletopics\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\XammpNew\tabletopics\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `an...', Array, false)
+#4 C:\XammpNew\tabletopics\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\XammpNew\tabletopics\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\XammpNew\tabletopics\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\XammpNew\tabletopics\app\Models\PromptModel.php(16): CodeIgniter\Model->insert(Array)
+#8 C:\XammpNew\tabletopics\app\Controllers\Prompt.php(46): App\Models\PromptModel->saverecords(Array)
+#9 C:\XammpNew\tabletopics\system\CodeIgniter.php(919): App\Controllers\Prompt->submit()
+#10 C:\XammpNew\tabletopics\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prompt))
+#11 C:\XammpNew\tabletopics\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\XammpNew\tabletopics\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Host 'DESKTOP-UA3QUIU.lan' is not allowed to connect to this MariaDB server in C:\XammpNew\tabletopics\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\XammpNew\tabletopics\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\XammpNew\tabletopics\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\XammpNew\tabletopics\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `an...', Array, false)
+#3 C:\XammpNew\tabletopics\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#4 C:\XammpNew\tabletopics\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#5 C:\XammpNew\tabletopics\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#6 C:\XammpNew\tabletopics\app\Models\PromptModel.php(16): CodeIgniter\Model->insert(Array)
+#7 C:\XammpNew\tabletopics\app\Controllers\Prompt.php(46): App\Models\PromptModel->saverecords(Array)
+#8 C:\XammpNew\tabletopics\system\CodeIgniter.php(919): App\Controllers\Prompt->submit()
+#9 C:\XammpNew\tabletopics\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prompt))
+#10 C:\XammpNew\tabletopics\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\XammpNew\tabletopics\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-10-29 13:39:02 --> Unable to connect to the database.
+Main connection [mysqli]: Host 'DESKTOP-UA3QUIU.lan' is not allowed to connect to this MariaDB server
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `answers` (`Store_Id`, `Times_Id`, `Prompts_Id`, `Intentions_Id`, `Table_Number`, `Answer`) VALUES (:Store_Id:, :Times_Id:, :Prompts_Id:, :Intentions_Id:, :Table_Number:, :Answer:)', [...], false)
+ 3 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 4 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 5 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 6 APPPATH\Models\PromptModel.php(16): CodeIgniter\Model->insert([...])
+ 7 APPPATH\Controllers\Prompt.php(46): App\Models\PromptModel->saverecords([...])
+ 8 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Prompt->submit()
+ 9 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prompt))
+10 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-29 13:39:03 --> [DEPRECATED] Creation of dynamic property App\Controllers\Prompt::$PromptModel is deprecated in APPPATH\Controllers\Prompt.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Prompt->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-29 13:40:39 --> [DEPRECATED] Creation of dynamic property App\Controllers\Prompt::$PromptModel is deprecated in APPPATH\Controllers\Prompt.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Prompt->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-29 13:40:39 --> Error connecting to the database: mysqli_sql_exception: Host 'DESKTOP-UA3QUIU.lan' is not allowed to connect to this MariaDB server in C:\XammpNew\tabletopics\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\XammpNew\tabletopics\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('192.168.1.191', 'root', Object(SensitiveParameterValue), 'tables_connect', 3306, '', 0)
+#1 C:\XammpNew\tabletopics\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\XammpNew\tabletopics\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\XammpNew\tabletopics\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `an...', Array, false)
+#4 C:\XammpNew\tabletopics\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\XammpNew\tabletopics\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\XammpNew\tabletopics\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\XammpNew\tabletopics\app\Models\PromptModel.php(16): CodeIgniter\Model->insert(Array)
+#8 C:\XammpNew\tabletopics\app\Controllers\Prompt.php(46): App\Models\PromptModel->saverecords(Array)
+#9 C:\XammpNew\tabletopics\system\CodeIgniter.php(919): App\Controllers\Prompt->submit()
+#10 C:\XammpNew\tabletopics\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prompt))
+#11 C:\XammpNew\tabletopics\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\XammpNew\tabletopics\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Host 'DESKTOP-UA3QUIU.lan' is not allowed to connect to this MariaDB server in C:\XammpNew\tabletopics\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\XammpNew\tabletopics\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\XammpNew\tabletopics\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\XammpNew\tabletopics\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `an...', Array, false)
+#3 C:\XammpNew\tabletopics\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#4 C:\XammpNew\tabletopics\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#5 C:\XammpNew\tabletopics\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#6 C:\XammpNew\tabletopics\app\Models\PromptModel.php(16): CodeIgniter\Model->insert(Array)
+#7 C:\XammpNew\tabletopics\app\Controllers\Prompt.php(46): App\Models\PromptModel->saverecords(Array)
+#8 C:\XammpNew\tabletopics\system\CodeIgniter.php(919): App\Controllers\Prompt->submit()
+#9 C:\XammpNew\tabletopics\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prompt))
+#10 C:\XammpNew\tabletopics\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\XammpNew\tabletopics\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-10-29 13:40:39 --> Unable to connect to the database.
+Main connection [mysqli]: Host 'DESKTOP-UA3QUIU.lan' is not allowed to connect to this MariaDB server
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `answers` (`Store_Id`, `Times_Id`, `Prompts_Id`, `Intentions_Id`, `Table_Number`, `Answer`) VALUES (:Store_Id:, :Times_Id:, :Prompts_Id:, :Intentions_Id:, :Table_Number:, :Answer:)', [...], false)
+ 3 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 4 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 5 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 6 APPPATH\Models\PromptModel.php(16): CodeIgniter\Model->insert([...])
+ 7 APPPATH\Controllers\Prompt.php(46): App\Models\PromptModel->saverecords([...])
+ 8 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Prompt->submit()
+ 9 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prompt))
+10 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-29 13:43:12 --> [DEPRECATED] Creation of dynamic property App\Controllers\Prompt::$PromptModel is deprecated in APPPATH\Controllers\Prompt.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Prompt->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-29 13:43:12 --> Error connecting to the database: mysqli_sql_exception: Host 'DESKTOP-UA3QUIU.lan' is not allowed to connect to this MariaDB server in C:\XammpNew\tabletopics\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\XammpNew\tabletopics\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('192.168.1.191', 'root', Object(SensitiveParameterValue), 'tables_connect', 3306, '', 0)
+#1 C:\XammpNew\tabletopics\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\XammpNew\tabletopics\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\XammpNew\tabletopics\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `an...', Array, false)
+#4 C:\XammpNew\tabletopics\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\XammpNew\tabletopics\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\XammpNew\tabletopics\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\XammpNew\tabletopics\app\Models\PromptModel.php(16): CodeIgniter\Model->insert(Array)
+#8 C:\XammpNew\tabletopics\app\Controllers\Prompt.php(46): App\Models\PromptModel->saverecords(Array)
+#9 C:\XammpNew\tabletopics\system\CodeIgniter.php(919): App\Controllers\Prompt->submit()
+#10 C:\XammpNew\tabletopics\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prompt))
+#11 C:\XammpNew\tabletopics\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\XammpNew\tabletopics\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Host 'DESKTOP-UA3QUIU.lan' is not allowed to connect to this MariaDB server in C:\XammpNew\tabletopics\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\XammpNew\tabletopics\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\XammpNew\tabletopics\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\XammpNew\tabletopics\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `an...', Array, false)
+#3 C:\XammpNew\tabletopics\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#4 C:\XammpNew\tabletopics\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#5 C:\XammpNew\tabletopics\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#6 C:\XammpNew\tabletopics\app\Models\PromptModel.php(16): CodeIgniter\Model->insert(Array)
+#7 C:\XammpNew\tabletopics\app\Controllers\Prompt.php(46): App\Models\PromptModel->saverecords(Array)
+#8 C:\XammpNew\tabletopics\system\CodeIgniter.php(919): App\Controllers\Prompt->submit()
+#9 C:\XammpNew\tabletopics\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prompt))
+#10 C:\XammpNew\tabletopics\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\XammpNew\tabletopics\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-10-29 13:43:12 --> Unable to connect to the database.
+Main connection [mysqli]: Host 'DESKTOP-UA3QUIU.lan' is not allowed to connect to this MariaDB server
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `answers` (`Store_Id`, `Times_Id`, `Prompts_Id`, `Intentions_Id`, `Table_Number`, `Answer`) VALUES (:Store_Id:, :Times_Id:, :Prompts_Id:, :Intentions_Id:, :Table_Number:, :Answer:)', [...], false)
+ 3 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 4 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 5 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 6 APPPATH\Models\PromptModel.php(16): CodeIgniter\Model->insert([...])
+ 7 APPPATH\Controllers\Prompt.php(46): App\Models\PromptModel->saverecords([...])
+ 8 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Prompt->submit()
+ 9 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prompt))
+10 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-29 13:46:58 --> [DEPRECATED] Creation of dynamic property App\Controllers\Prompt::$PromptModel is deprecated in APPPATH\Controllers\Prompt.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Prompt->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-29 13:46:58 --> Undefined constant "App\Controllers\response"
+in APPPATH\Controllers\Prompt.php on line 48.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Prompt->submit()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prompt))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-29 13:47:02 --> [DEPRECATED] Creation of dynamic property App\Controllers\Prompt::$PromptModel is deprecated in APPPATH\Controllers\Prompt.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Prompt->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-29 13:47:03 --> [DEPRECATED] Creation of dynamic property App\Controllers\Prompt::$PromptModel is deprecated in APPPATH\Controllers\Prompt.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Prompt->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-29 13:47:03 --> Undefined constant "App\Controllers\response"
+in APPPATH\Controllers\Prompt.php on line 48.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Prompt->submit()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prompt))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-29 13:47:18 --> [DEPRECATED] Creation of dynamic property App\Controllers\Prompt::$PromptModel is deprecated in APPPATH\Controllers\Prompt.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Prompt->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-29 13:47:20 --> [DEPRECATED] Creation of dynamic property App\Controllers\Prompt::$PromptModel is deprecated in APPPATH\Controllers\Prompt.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Prompt->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-29 13:48:46 --> [DEPRECATED] Creation of dynamic property App\Controllers\Prompt::$PromptModel is deprecated in APPPATH\Controllers\Prompt.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Prompt->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-29 13:50:00 --> [DEPRECATED] Creation of dynamic property App\Controllers\Prompt::$PromptModel is deprecated in APPPATH\Controllers\Prompt.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Prompt->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-29 13:51:05 --> [DEPRECATED] Creation of dynamic property App\Controllers\Prompt::$PromptModel is deprecated in APPPATH\Controllers\Prompt.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Prompt->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-29 13:51:13 --> [DEPRECATED] Creation of dynamic property App\Controllers\Prompt::$PromptModel is deprecated in APPPATH\Controllers\Prompt.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Prompt->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-29 13:51:17 --> [DEPRECATED] Creation of dynamic property App\Controllers\Prompt::$PromptModel is deprecated in APPPATH\Controllers\Prompt.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Prompt->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

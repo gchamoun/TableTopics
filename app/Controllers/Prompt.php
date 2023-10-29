@@ -1,9 +1,18 @@
 <?php
 
 namespace App\Controllers;
+use App\Models\PromptModel; // Adjust the namespace as needed
+
 
 class Prompt extends BaseController
 {
+    public function __construct()
+    {
+        $this->PromptModel= new PromptModel();
+    }
+
+
+
     public function index()
     {
 
@@ -28,13 +37,14 @@ public function submit()
 
         // $initalForm = new initalForm();
 
-    
-        $table = $_POST['table'];
-        $store = $_POST['store'];
-        $intention = $_POST['intention'];
-        $store_eta = $_POST['store_eta'];
-        $prompt = $_POST['prompt'];
-        $answer = $_POST['answer'];
+        $data['Store_Id'] = $_POST['store'];
+        $data['Times_Id'] = $_POST['store_eta'];
+        $data['Prompts_Id'] = $_POST['prompt'];
+        $data['Intentions_Id'] = $_POST['intention'];
+        $data['Table_Number'] = $_POST['table'];
+        $data['Answer'] = $_POST['answer'];
+        $response=$this->PromptModel->saverecords($data);
+
 
 
         // $initalForm->save($data);
